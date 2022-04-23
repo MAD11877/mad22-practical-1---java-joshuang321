@@ -11,7 +11,7 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    System.print("Your integer: "); int i = in.nextInt();
-    System.print("Integer^2: "); System.println(i * i);
+    System.out.print("Your integer: "); int i = in.nextInt();
+    System.out.print("Integer^2: "); System.out.println(i * i);
   }
 }

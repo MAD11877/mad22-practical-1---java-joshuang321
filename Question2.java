@@ -11,7 +11,7 @@ public class Question2
      */
      
     Scanner in = new Scanner(System.in);
-    System.print("Your height (m): "); double height = in.nextDouble(); System.print("Your weight (kg): "); double weight = in.nextDouble();
-    System.print("Your BMI is :"); System.println(weight/ (height*2))
+    System.out.print("Your height (m): "); double height = in.nextDouble(); System.out.print("Your weight (kg): "); double weight = in.nextDouble();
+    System.out.print("Your BMI is :"); System.out.println(weight/ (height*height));
   }
 }

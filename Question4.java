@@ -18,14 +18,18 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    System.print("Your base size in integer: "); int sz = in.nextInt();
-    for (int i=0; i<sz; i++)
+    System.out.print("Your base size in integer: "); int sz = in.nextInt();
+    for (int i=0;
+      i<sz;
+      i++)
     {
-      for (int j=i; j<sz; j++)
+      for (int j=i;
+        j<sz;
+        j++)
       {
-        System.print("*");
+        System.out.print("*");
       }
-      System.println();
+      if (i!=(sz-1)) System.out.println();
     }
   }
 }
